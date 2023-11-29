@@ -1,6 +1,9 @@
 set (KIWI_FILTER_SRC
     Filter.hpp
+    DataProvider.hpp DataProvider.cpp
     KalmanFilter.hpp
+    WindowFilter.hpp WindowFilter.cpp
+    MedianWindowFilter.hpp MedianWindowFilter.cpp
     EKF.hpp EKF.cpp
     UKF.hpp UKF.cpp
     FilterFactory.hpp FilterFactory.cpp 

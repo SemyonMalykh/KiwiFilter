@@ -6,6 +6,6 @@ class UKF : public KalmanFilter {
     virtual void initialize() override;
     virtual void predict() override;
     virtual void update() override;
-    virtual void filterStep() override;
+    void filterStep(DataProvider& dataProvider) override;
     // EKF-specific member functions and data
 };
